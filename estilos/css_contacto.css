@@ -1,0 +1,255 @@
+/* estilo de contacto */
+
+@media screen and (min-width: 600px){
+    body{
+
+        background-image: url("fondo_fuego.png");
+
+        
+
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        margin-bottom: 5%;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+    h1:hover{
+        color: red;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        margin-bottom: 5%;
+        font-family: 'Rubik Microbe', cursive;
+    }
+    form{
+        text-align: center;
+    }
+
+    label{
+        color: white;
+        text-align: center;
+        font-size: 200%;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    label:hover{
+        color: red;
+        text-align: center;
+        font-size: 200%;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+    .enviar{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    .enviar:hover{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: red;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+    
+    .navegacion{
+
+        margin-left: 15%;
+
+    }
+
+
+    a{
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: red;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+    }
+     
+       
+    
+   
+
+    .boton_inicio{
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+       
+    }
+
+    .boton_presentacion{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+    .experiencia{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+    .imagenes{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+
+        background-image: url("fondo_fuego.png");
+
+        
+
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        margin-bottom: 10%;
+    }
+
+    h1:hover{
+        color: red;
+        text-align: center;
+        transform: translateY(150%);
+    }
+
+    form{
+        text-align: center;
+    }
+
+    label{
+        color: white;
+        text-align: center;
+        font-size: 200%;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    label:hover{
+        color: red;
+        text-align: center;
+        font-size: 200%;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    .boton_inicio{
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+       
+    }
+
+    .boton_presentacion{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 22%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+    .experiencia{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+    .imagenes{
+
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%;
+        height: 50px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+        .navegacion{
+
+            margin-left: 15%;
+    
+        }
+    
+    
+        a{
+            color: white;
+            font-family: cursive;
+            text-decoration: none;
+            font-size: 70%;
+            font-family: 'Rubik Microbe', cursive;
+        }
+
+        a:hover{
+            color: red;
+            font-family: cursive;
+            text-decoration: none;
+            font-size: 80%;
+            font-family: 'Rubik Microbe', cursive;
+        }
+
+
+        .enviar{
+
+            background-color: rgba(184, 135, 11, 0.519);
+            width: 20%;
+            height: 50px;
+            color: white;
+            font-family: 'Rubik Microbe', cursive;
+            
+        }
+
+        .enviar:hover{
+
+            background-color: rgba(184, 135, 11, 0.519);
+            width: 20%;
+            height: 50px;
+            color: red;
+            font-family: 'Rubik Microbe', cursive;
+            
+        }
+
+
+    }
+

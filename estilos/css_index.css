@@ -1,0 +1,162 @@
+/* esta es la pagina de estilo del index */
+
+@media screen and (min-width: 600px){
+    body{
+
+        background-image: url("fondo_fuego.png");
+
+        
+
+    }
+
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+        transform:translateY(2%) ;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+    h1:hover{
+        color: red;
+        text-align: center;
+        margin-top: 15%;
+        transform:translateY(2%) ;
+        font-family: 'Rubik Microbe', cursive;
+        font-size: 50px;
+    }
+
+    h3{
+
+        color: white;
+        text-align: center;
+        font-family: 'Rubik Microbe', cursive;
+
+    }
+
+    h3:hover{
+
+        color: red;
+        text-align: center;
+        font-family: 'Rubik Microbe', cursive;
+        font-size: 30px;
+
+    }
+    nav{
+        justify-content: center;
+        margin-top: 15%;
+    }
+
+    /* h2{
+        color: white
+    } */
+
+    a{
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+    }
+    a:hover{
+        color:red;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+    }
+    button{
+        background-color: rgba(184, 135, 11, 0.349);
+        margin-left: 10%;
+        width: 20%;
+        
+
+    }
+
+    button:hover{
+
+        background-color: rgba(184, 135, 11, 0.349);
+        margin-left: 3%;
+        width: 25%;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    body{
+
+        background-image: url("fondo_fuego.png");
+
+        
+
+    }
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+        transform:translateY(2%) ;
+        font-family: 'Rubik Microbe', cursive;
+        font-size: 20px;
+    }
+
+    
+
+    h1:hover{
+        color: red;
+        text-align: center;
+        margin-top: 15%;
+        transform:translateY(2%) ;
+        font-family: 'Rubik Microbe', cursive;
+        font-size: 20px;
+    }
+    h3{
+
+        color: white;
+        text-align: center;
+        font-family: 'Rubik Microbe', cursive;
+
+    }
+    h3:hover{
+
+        color:red;
+        text-align: center;
+        font-family: 'Rubik Microbe', cursive;
+
+    }
+
+    nav{
+       justify-content: center;
+    }
+
+    a{
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+        font-size: 60%;
+    }
+    a:hover{
+        color: red;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+        font-size: 65%;
+    }
+
+   
+
+    button{
+        background-color: rgba(184, 135, 11, 0.349);
+        margin-left: 10%;
+        width: 21%;
+        
+
+    }
+    
+    button:hover{
+        background-color: rgba(184, 135, 11, 0.349);
+        margin-left: 8%;
+        width: 22%;
+        
+
+    }
+
+
+}
+

@@ -1,0 +1,228 @@
+/* css imagenes */
+@media screen and (min-width: 600px){
+body{
+
+    background-image: url("fondo_fuego.png");
+}
+
+button{
+    background-color: rgba(184, 135, 11, 0.519);
+    width: 20%; 
+
+    height: 50px;
+}
+
+nav{
+    margin-left: 15%;
+    
+}
+a{
+
+    color: white;
+    font-family: 'Rubik Microbe', cursive;
+    text-decoration: none;
+}
+a:hover{
+
+    color: red;
+    font-family: 'Rubik Microbe', cursive;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    text-align: center;
+    transform: translateY(150%);
+    background-color: rgba(184, 135, 11, 0.519);
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+h1:hover{
+    color: red;
+    text-align: center;
+    transform: translateY(150%);
+    background-color: rgba(184, 135, 11, 0.519);
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+.contenedor{
+
+    margin-top: 10%;
+
+    margin-left: 25%;
+
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-areas: "caja1 caja2 caja3 caja3"
+                         "caja1 caja4 caja5 caja6"
+                         "caja7 caja4 caja8 caja8";
+           grid-gap: 10px;              
+}
+.caja1{
+    grid-area: caja1;
+    background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja2{
+ grid-area: caja2;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja3{
+ grid-area: caja3;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja4{
+ grid-area: caja4;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja5{
+ grid-area: caja5;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja6{
+ grid-area: caja6;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja7{
+ grid-area: caja7;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja8{
+ grid-area: caja8;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+
+@media screen and (max-width: 600px){
+
+body{
+    
+    background-image: url("fondo_fuego.png");
+
+}
+
+button{
+    background-color: rgba(184, 135, 11, 0.519);
+    width: 20%; 
+
+    height: 50px;
+}
+
+nav{
+    margin-left: 15%;
+    
+}
+
+a{
+
+    color: white;
+    font-family: 'Rubik Microbe', cursive;
+    text-decoration: none;
+    font-size: 90%;
+}
+a:hover{
+
+    color: red;
+    font-family: 'Rubik Microbe', cursive;
+    text-decoration: none;
+    font-size: 90%;
+}
+h1{
+    color: white;
+    text-align: center;
+    transform: translateY(150%);
+    background-color: rgba(184, 135, 11, 0.519);
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+h1:hover{
+    color: red;
+    text-align: center;
+    transform: translateY(150%);
+    background-color: rgba(184, 135, 11, 0.519);
+    font-family: 'Rubik Microbe', cursive;
+    
+}
+
+.contenedor{
+
+    margin-top: 30%;
+
+    margin-left: 10%;
+
+    display: grid;
+    grid-template-rows: 105px 105px 105px 105px;
+    grid-template-columns: 105px 105px 105px 105px;
+    grid-template-areas: "caja1 caja2 caja3 caja3"
+                         "caja1 caja4 caja5 caja6"
+                         "caja7 caja4 caja8 caja8";
+           grid-gap: 10px;              
+}
+.caja1{
+    grid-area: caja1;
+    background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja2{
+ grid-area: caja2;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja3{
+ grid-area: caja3;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja4{
+ grid-area: caja4;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja5{
+ grid-area: caja5;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja6{
+ grid-area: caja6;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja7{
+ grid-area: caja7;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja8{
+ grid-area: caja8;
+ background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+}

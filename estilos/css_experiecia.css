@@ -1,0 +1,194 @@
+/* css de experiencia */
+@media screen and (min-width: 600px){
+    body{
+
+        background-image: url("fondo_fuego.png");
+
+        
+
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    h1:hover{
+        color: red;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+    nav{
+        margin-left: 15%;
+        
+    }
+    a{
+
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+    }
+
+    a:hover{
+
+        color: red;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+    }
+    button{
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%; 
+
+        height: 50px;
+    }
+
+    p{
+
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    p:hover{
+
+        color: red;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+    span{
+        font-size: 20px;
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        background-color:  rgba(184, 135, 11, 0.519);
+    }
+
+    .parrafo1{
+        width: 30%;
+        margin-left: 50%;
+        transform: translateY(150%);
+        font-family: 'Rubik Microbe', cursive;
+    }
+    .imagen1{
+
+        margin-left: 25%;
+
+    }
+    .parrafo2{
+        width: 30%;
+        margin-left: 20%;
+        transform: translateY(80%);
+        font-family: 'Rubik Microbe', cursive;
+}
+.imagen2{
+
+    margin-left: 55%;
+    transform: translateY(-50%);
+}
+.parrafo3{
+    width: 30%;
+    margin-left: 50%;
+    transform: translateY(-50%);
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.imagen3{
+
+    margin-left: 25%;
+    transform: translateY(-100%);
+
+}
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+
+        background-image: url("fondo_fuego.png");
+    }
+
+    button{
+        background-color: rgba(184, 135, 11, 0.519);
+        width: 20%; 
+
+        height: 50px;
+    }
+    nav{
+        margin-left: 15%;
+        
+    }
+
+    a{
+
+        color: white;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+        font-size: 80%;
+    }
+
+    a:hover{
+
+        color: red;
+        font-family: 'Rubik Microbe', cursive;
+        text-decoration: none;
+        font-size: 80%;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    h1:hover{
+        color: red;
+        text-align: center;
+        transform: translateY(150%);
+        background-color: rgba(184, 135, 11, 0.519);
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    p{
+
+        color: white;
+        text-align: center;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    p:hover{
+
+        color: red;
+        text-align: center;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+    span{
+        background-color: rgba(184, 135, 11, 0.519);
+        color: white;
+        font-size: 20px;
+        font-family: 'Rubik Microbe', cursive;
+    }
+
+    .parrafo1{
+        margin-top: 20%;
+        font-family: 'Rubik Microbe', cursive;
+        
+    }
+
+    img{
+        transform: translateX(35%);
+    }
+
+
+}
